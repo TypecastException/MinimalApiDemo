@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace EmptyWebApiProject.App_Start
+namespace MinimalApiDemo.App_Start
 {
     public class FilterConfig
     {
