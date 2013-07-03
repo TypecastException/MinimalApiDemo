@@ -42,12 +42,14 @@ namespace MinimalApiDemo.Controllers
         }
 
 
-        public void PutPerson(int id, Person person)
+        public bool PutPerson(int id, Person person)
         {
             if (!databasePlaceholder.Update(person))
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
+
+            return true;
         }
 
 

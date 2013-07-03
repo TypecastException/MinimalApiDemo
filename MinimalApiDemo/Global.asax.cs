@@ -1,6 +1,7 @@
 ﻿using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
+using MinimalApiDemo.App_Start;
 
 namespace MinimalApiDemo
 {
@@ -12,6 +13,8 @@ namespace MinimalApiDemo
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            WebApiConfig.Register(GlobalConfiguration.Configuration);
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
         }
     }
 }
