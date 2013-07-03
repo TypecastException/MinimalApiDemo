@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EmptyWebApiProject.Models
+namespace MinimalApiDemo.Models
 {
     public class Person
     {
