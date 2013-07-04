@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Tracing;
 
 namespace MinimalApiDemo.App_Start
 {

@@ -42,7 +42,7 @@ namespace MinimalApiDemo.Controllers
         }
 
 
-        public bool PutPerson(int id, Person person)
+        public bool PutPerson(Person person)
         {
             if (!databasePlaceholder.Update(person))
             {
